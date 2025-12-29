@@ -23,6 +23,4 @@ high_stipend.to_csv("high_stipend_interns.csv",index = False)
 avg_stipend.to_csv("avg_stipend_by_field.csv",index = False)
 top_10.to_csv("top_10_higest_paid.csv", index = False)
 
-print("✅ Analysis completed and files saved successfully.")
-
 print(avg_stipend)
